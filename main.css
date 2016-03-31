@@ -4,10 +4,18 @@
   position: relative;
   margin-left: 15px;
   border-bottom: 2px solid #D9D9D9;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  /*color: #ffffff;*/
 }
  .octocat img{
   width: 325px;
-  border: 2px solid #D9D9D9;
+  border: 1px solid #D9D9D9;
+}
+.octocat a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 /*img {
   width: 50px;
@@ -18,8 +26,11 @@
 }*/
 
 .authors {
+  /*font-family: Times;
+  font-size: 14px;*/
+
   /*border: 1px solid red;*/
-  font-size: 14px;
+
   /*position: absolute;
   bottom:-20px;
   right:15px;*/
@@ -32,13 +43,19 @@
 
 }
 .image-caption {
-  font-size: 14px;
+  font-size: 12px;
+  /*color: #8f8f8f;*/
   /*border: 1px solid red;*/
-  padding-left: 120px;
+  /*padding-left: 120px;*/
   padding-top: 5px;
   /*position: absolute;*/
   /*bottom:-20px;
   right:25px;*/
+  float: right;
+}
+.image-caption span {
+  color: #808080;
+  font-weight: bold;
 }
 
 .authors {
@@ -61,4 +78,11 @@
 .image-number {
   position: absolute;
   bottom: 12px;
+  color: #D9D9D9;
+  font-weight: bold;
+
 }
+
+/*span {
+  color: #8f8f8f;
+}*/
